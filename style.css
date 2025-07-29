@@ -32,6 +32,7 @@ header {
   box-sizing: border-box;
 }
 
+
 nav {
   display: flex;
   align-items: center;
@@ -169,8 +170,22 @@ nav ul li:hover svg {
   background: #E6722B;
   border-radius: 12px;
   margin-top: 10px;
-  transition: 0.3s ease;
 }
+
+#link-insta {
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  width: 60px;         
+  height: 60px;           
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 #svg-insta {
   width: 30px;
